@@ -6,8 +6,9 @@ const CreateList = React.createClass({
   render() {
     return (
       <div>
-        Add your favorite Shoes here, by ranking.
-        <p>Search your favorite shoe: <input type='text'/></p>
+        Create a Rankings list of your personal five favorite Skechers.
+        <p> Search for SKechers pair: 
+        <input type='text'/></p>
       </div>
     );
   }

@@ -15,7 +15,7 @@ const ListPage = React.createClass({
   render() {
     const items = this.props.items.map((item, index) => {
       return (<li key={index} onClick={() => this.props.selectItem(item)}>
-            <Link to={'/skechers'}>{item}</Link></li>);
+            <Link to={`/skechers/${item}`}>{item}</Link></li>);
     });
 
     return (

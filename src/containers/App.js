@@ -15,6 +15,8 @@ const App = React.createClass({
         <Link to='/list'>List Maker</Link>
         {' '}
         <Link to='/about'>About</Link>
+        {' '}
+        <Link to='/createlist'>Add Your Ranking</Link>
 
         <br /><br />
 
